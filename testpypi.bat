@@ -1,3 +1,3 @@
-python -m build
-twine check dist/*
-@REM twine upload -r testpypi dist/* --verbose
+:: python -m build
+:: twine check dist/*
+twine upload -r testpypi dist/* --verbose
