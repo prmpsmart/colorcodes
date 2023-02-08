@@ -2,7 +2,7 @@ from tkinter import *
 from tkinter import ttk
 from tkinter import colorchooser
 from tkinter import messagebox
-from colorcodes import *
+from convert_color_codes import *
 
 
 def choose_color():

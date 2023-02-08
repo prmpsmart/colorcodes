@@ -1,8 +1,12 @@
 """
 This module deals with the conversion of color codes.
 HSV/HSB or RGB or CMYK or HSL
+
+__author__ = prmpsmart@gmail.com
 """
 from math import acos, pi, sqrt
+
+__author__ = "prmpsmart@gmail.com"
 
 HEX = ("A", "B", "C", "D", "E", "F")
 H = 16
