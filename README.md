@@ -29,20 +29,20 @@ There are several functions like `rgb2hex(red, green, blue)`, see the table:
 
 The values have different ranges:
 
-| name | min | max |
-| --- | --- | --- |
-| red | 0 | 255 |
-| green | 0 | 255 |
-| blue | 0 | 255 |
-| R | 0 | F |
-| G | 0 | F |
-| B | 0 | F |
-| hue | 0 | 360 |
-| saturation | 0 | 1 |
-| lightness | 0 | 1 |
-| value or brightness | 0 | 1 |
-| cyan | 0 | 1 |
-| magenta | 0 | 1 |
-| yellow | 0 | 1 |
-| black | 0 | 1 |
+| name | min | max | type |
+| --- | --- | --- | --- |
+| red | 0 | 255 | int |
+| green | 0 | 255 | int |
+| blue | 0 | 255 | int |
+| R | 0 | F | str |
+| G | 0 | F | str |
+| B | 0 | F | str |
+| hue | 0 | 360 | int or float |
+| saturation | 0 | 1 | float |
+| lightness | 0 | 1 | float |
+| value or brightness | 0 | 1 | float |
+| cyan | 0 | 1 | float |
+| magenta | 0 | 1 | float |
+| yellow | 0 | 1 | float |
+| black | 0 | 1 | float |
 
