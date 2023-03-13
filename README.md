@@ -20,12 +20,13 @@ from convert_color_codes import *
 
 There are several functions like `rgb2hex(red, green, blue)`, see the table:
 
-|  | `rgb2...(red:int, green:int, blue:int)` | `hex2...("#RRGGBB" | "#RGB")` | `hsl2...(hue:int, saturation:int, lightness:int)` | `hsv2...(hue:int, saturation:int, value:int)`<br/>`hsb2...(hue:int, saturation:int, brightness:int)` | `hsv2...(cyan:int, magenta:int, yellow:int, black:int)` |
-| `rgb` → `(red:int, green:int, blue:int)` |  | ✓ | ✓ | ✓ | ✓ |
+| Source with Arguments →<br/>Target and Return Value ↓ | `rgb2...(red, green, blue)` | `hex2...("#RRGGBB" or "#RGB")` | `hsl2...(hue, saturation, lightness)` | `hsv2...(hue, saturation, value)`<br/>`hsb2...(hue, saturation, brightness)` | `hsv2...(cyan, magenta, yellow, black)` |
+| --- | --- | --- | --- | --- | --- |
+| `rgb` → `(red, green, blue)` |  | ✓ | ✓ | ✓ | ✓ |
 | `hex` → `"#RRGGBB"` | ✓ |  | ✓ | ✓ | ✓ |
-| `hsl` → `(hue:int, saturation:int, lightness:int)` | ✓ | ✓ |  | ✓ | ✓ |
-| `hsv` or `hsb` → `(hue:int, saturation:int, brightness:int)` | ✓ | ✓ | ✓ |  | ✓ |
-| `cmyk` → `(cyan:int, magenta:int, yellow:int, black:int)` | ✓ | ✓ | ✓ | ✓ |  |
+| `hsl` → `(hue, saturation, lightness)` | ✓ | ✓ |  | ✓ | ✓ |
+| `hsv` or `hsb` → `(hue, saturation, brightness)` | ✓ | ✓ | ✓ |  | ✓ |
+| `cmyk` → `(cyan, magenta, yellow, black)` | ✓ | ✓ | ✓ | ✓ |  |
 
 The values have different ranges:
 
